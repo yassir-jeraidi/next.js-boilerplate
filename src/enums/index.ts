@@ -10,7 +10,7 @@ export enum Resource {
 }
 
 export enum Role {
-    ADMIN = 'admin',
-    USER = 'user',
-    EDITOR = 'editor'
+    ADMIN = 'ADMIN',
+    USER = 'USER',
+    EDITOR = 'EDITOR'
 }
