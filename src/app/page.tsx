@@ -4,15 +4,14 @@ import {signIn} from "@/services/authService";
 
 export default function Home() {
     return (
-        <DynamicForm authConfig={
+        <DynamicForm config={
             {
                 title: "Sign In",
                 description: "Sign in to your account",
                 submitText: "Sign In",
 
             }
-        }
-                     defaultValues={
+        } defaultValues={
             {
                 email: "",
                 password: "",
